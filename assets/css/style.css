@@ -10,3 +10,13 @@ header {
   background-color: midnightblue;
   color: white;
 }
+
+.cart,
+.ham-button {
+  height: 2%;
+  width: 2%;
+}
+
+.ham-button {
+  display: none;
+}
