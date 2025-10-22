@@ -4,7 +4,9 @@
 
 body {
   background-color: lightsteelblue;
-    color: white;
+  color: white;
+  display: grid;
+  
 }
 
 header,
