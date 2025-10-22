@@ -66,8 +66,8 @@ aside {
 }
 
 figure img {
-  height: 30%;
-  width: 100%;
+  height: 3%;
+  width: 16%;
 }
 
 footer {
@@ -167,7 +167,8 @@ a {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(15ch, 1fr));
+  grid-template-columns: repeat(autofit, minmax(4rem, 1fr));
+  grid-auto-rows: 14rem;
 }
 
 a:visited {
