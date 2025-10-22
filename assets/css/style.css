@@ -7,7 +7,10 @@ body {
     color: white;
 }
 
-header {
+header,
+footer,
+h2,
+article {
   background-color: midnightblue;
 }
 
