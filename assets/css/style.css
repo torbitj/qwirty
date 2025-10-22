@@ -33,16 +33,11 @@ nav {
   grid-template-areas: 
   ". menu . login .";
   align-items: center;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 nav ul {
   display: grid;
-}
-
-nav ul li {
-  border-left: solid;
-
 }
 
 main {
@@ -66,6 +61,11 @@ a {
   grid-template-columns: repeat(4, max-content);
 }
 
+.menu-item {
+  border-left: 0.01em solid;
+  padding: 0.25em 0.5em;
+}
+
 .login {
   grid-area: login;
   grid-template-columns: repeat(3, max-content);
@@ -87,4 +87,8 @@ a {
 
 a:visited {
   color: white;
+}
+
+.menu-item:hover {
+  background-color: #4040d4;
 }
