@@ -24,8 +24,11 @@ article {
 
 header {
   grid-area: header;
+}
+
+nav {
   display: grid;
-  grid-template-columns: 1fr 2fr 3fr 1.5fr 1fr;
+  grid-template-columns: 1fr 3fr 2fr 2fr 1fr;
   grid-template-areas: 
   ". menu . login .";
 }
@@ -38,13 +41,13 @@ footer {
   grid-area: footer;
 }
 
-/* .brand-search {
-  grid-area: search;
+.menu {
+  grid-area: menu;
 }
 
-.products {
-  grid-area: products;
-} */
+.login {
+  grid-area: login;
+}
 
 .cart,
 .ham-button {
