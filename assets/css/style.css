@@ -10,6 +10,7 @@
 body {
   /* width: 100vw; */
   background-color: lightsteelblue;
+  font-family: 'STIX Two Text', sans-serif;
   color: white;
   display: grid;
   grid-template-columns: 1.5fr 8fr 1.5fr;
@@ -60,6 +61,7 @@ li {
 
 h1 {
   grid-area: brand;
+  font-family: "Alkatra", sans-serif;
   font-size: 2;
   color: midnightblue;
 }
@@ -113,9 +115,9 @@ a {
 }
 
 .brand-search {
-  padding: 1em 0.5em;
+  padding: 1em 0;
   display: grid;
-  grid-template-columns: 1fr 4fr 0.1fr 1fr;
+  grid-template-columns: 1fr 4fr 0.1fr 1.5fr;
   text-align: center;
   align-items: center;
   grid-template-areas: 
@@ -131,8 +133,12 @@ a {
 }
 
 .ad {
+  padding: 0.5em 0.25em;
   grid-area: ad;
   background-color: green;
+  font-family: 'Siracha', sans-serif;
+  font-size: 1.25em;
+  box-shadow: 3px 3px 3px #007000;
 }
 
 a:visited {
