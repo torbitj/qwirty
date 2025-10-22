@@ -65,6 +65,11 @@ aside {
   align-items: center;
 }
 
+figure img {
+  height: 30%;
+  width: 100%;
+}
+
 footer {
   grid-area: footer;
 }
@@ -162,6 +167,7 @@ a {
 
 .product-grid {
   display: grid;
+  grid-template-columns: repeat(autofit, minmax(15ch, 1fr));
 }
 
 a:visited {
