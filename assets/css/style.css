@@ -4,11 +4,11 @@
 
 body {
   background-color: lightsteelblue;
+    color: white;
 }
 
 header {
   background-color: midnightblue;
-  color: white;
 }
 
 .cart,
