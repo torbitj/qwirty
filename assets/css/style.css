@@ -77,10 +77,6 @@ form a {
   height: 1.5em;
 }
 
-input {
-  /* height: 1.8em; */
-}
-
 a {
   text-decoration: none;
 }
@@ -145,6 +141,10 @@ a:visited {
 }
 
 .menu-item:hover {
+  background-color: var(--hover-color);
+}
+
+.mag-glass:hover {
   background-color: var(--hover-color);
 }
 
