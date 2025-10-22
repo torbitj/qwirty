@@ -160,6 +160,10 @@ a {
   grid-area: products;
 }
 
+.product-grid {
+  display: grid;
+}
+
 a:visited {
   color: white;
 }
