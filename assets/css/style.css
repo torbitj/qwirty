@@ -3,18 +3,44 @@
 }
 
 body {
+  /* width: 100vw; */
   background-color: lightsteelblue;
   color: white;
   display: grid;
-  
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-areas: 
+  "header header header"
+  ". main ."
+  "footer footer footer";
 }
 
 header,
 footer,
+aside,
 h2,
 article {
   background-color: midnightblue;
 }
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/* .brand-search {
+  grid-area: search;
+}
+
+.products {
+  grid-area: products;
+} */
 
 .cart,
 .ham-button {
