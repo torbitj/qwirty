@@ -22,7 +22,7 @@ body {
 
 header,
 footer,
-aside,
+aside a,
 h2,
 article {
   background-color: midnightblue;
@@ -50,11 +50,15 @@ main {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-areas: 
+  "search search"
   "aside products";
 }
 
 aside {
   grid-area: aside;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  row-gap: 0.2fr;
 }
 
 footer {
@@ -118,6 +122,7 @@ a {
 
 .brand-search {
   padding: 1em 0;
+  grid-area: search;
   display: grid;
   grid-template-columns: 1fr 4fr 0.1fr 1.5fr;
   text-align: center;
