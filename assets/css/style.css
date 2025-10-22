@@ -33,7 +33,7 @@ nav {
   grid-template-areas: 
   ". menu . login .";
   align-items: center;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 nav ul {
@@ -41,7 +41,8 @@ nav ul {
 }
 
 nav ul li {
-  border: ;
+  border-left: solid;
+
 }
 
 main {
@@ -82,10 +83,6 @@ a {
 
 .menu-start {
   border-left: none;
-}
-
-.menu-end {
-  border-right: none;
 }
 
 a:visited {
