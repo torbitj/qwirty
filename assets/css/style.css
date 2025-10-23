@@ -80,8 +80,10 @@ figure > img {
 }
 
 footer {
+  height: 15em;
   display: grid;
   grid-area: footer;
+  justify-content: start;
   grid-template-columns:  repeat(5, 1fr);
   grid-template-areas: 
   ". customer sales about .";
@@ -220,14 +222,17 @@ a {
 }
 
 .customer {
+  display: grid;
   grid-area: customer;
 }
 
 .sales {
+  display: grid;
   grid-area: sales;
 }
 
 .about {
+  display: grid;
   grid-area: about;
 }
 
