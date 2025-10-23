@@ -313,4 +313,8 @@ a:visited {
     "aside"
     "products";
   }
+
+  aside {
+    text-align: center;
+  }
 }
