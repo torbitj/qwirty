@@ -297,6 +297,37 @@ a:visited {
 }
 
 /* Media Queries */
+@media screen and (width <= 768px) {
+  .header {
+    font-size: 0.8em;
+  }
+
+  .login li {
+    display: none;
+  }
+
+  .bars {
+    display: grid;
+    grid-area: bars;
+    justify-content: end;
+  }
+
+  .ham-button {
+    display: initial;
+  }
+
+  .ad {
+    font-size: 0.8em;
+  }
+
+  .header {
+    font-size: 1em;
+    grid-template-columns: 4fr 2fr 0.1fr;
+    grid-template-areas: 
+    "menu bars";
+  }
+}
+
 @media screen and (width <= 640px) {
   body {
     grid-template-columns: 1fr;
@@ -307,12 +338,12 @@ a:visited {
   }
 
   main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.5fr 4fr 0.5fr;
     row-gap: 0.5em;
     grid-template-areas: 
-    "search"
-    "aside"
-    "products";
+    "search search search"
+    ". aside ."
+    ". products .";
   }
 
   aside {
@@ -335,30 +366,5 @@ a:visited {
     "customer"
     "sales"
     "about";
-  }
-
-  .header {
-    font-size: 1em;
-    grid-template-columns: 4fr 2fr 0.1fr;
-    grid-template-areas: 
-    "menu bars";
-  }
-
-  .login li {
-    display: none;
-  }
-
-  .bars {
-    display: grid;
-    grid-area: bars;
-    justify-content: end;
-  }
-
-  .ham-button {
-    display: initial;
-  }
-
-  .ad {
-    font-size: 0.8em;
   }
 }
