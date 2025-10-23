@@ -68,6 +68,9 @@ aside {
 figure {
   color: black;
   min-height: 0;
+  padding: 1.5em;
+  border: solid midnightblue;
+  border-bottom: none;
 }
 
 figure > img {
@@ -98,7 +101,6 @@ form {
   grid-area: search-field;
   display: grid;
   grid-template-columns: 1fr max-content;
-  /* align-items: start; */
 }
 
 form a {
