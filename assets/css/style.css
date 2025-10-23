@@ -188,6 +188,7 @@ a {
 }
 
 .price-tag {
+  padding: 0.25em;
   display: grid;
   grid-template-columns: 1fr 2fr max-content;
   align-items: center;
@@ -198,9 +199,16 @@ a {
   font-weight: bold;
 }
 
+.price-tag a,
 .cart-add {
   height: 1.5em;
   width: 1.5em;
+}
+
+.price-tag a {
+  padding: 0.1em;
+  background-color: #23509a;
+  border-radius: 25%;
 }
 
 a:visited {
