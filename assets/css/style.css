@@ -144,12 +144,12 @@ a {
 .login {
   grid-area: login;
   grid-template-columns: repeat(3, max-content);
+  align-items: center;
 }
 
-.cart,
-.ham-button {
-  height: 1em;
-  width: 1em;
+.cart {
+  height: 1.5em;
+  width: 1.5em;
 }
 
 .ham-button {
@@ -353,6 +353,8 @@ a:visited {
   }
 
   .ham-button {
+    height: 2em;
+    width: 2em;
     display: initial;
   }
 
@@ -435,7 +437,6 @@ a:visited {
   }
 
   .ham-button {
-    height: 2em;
-    width: 2em;
+    
   }
 }
