@@ -404,4 +404,13 @@ a:visited {
     height: 2em;
     width: 2em;
   }
+
+  .brand-search {
+    grid-template-columns: 1fr;
+    row-gap: 0.5em;
+    grid-template-areas: 
+    "brand"
+    "search-field"
+    "ad";
+  }
 }
