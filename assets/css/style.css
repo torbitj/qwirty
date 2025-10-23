@@ -80,7 +80,11 @@ figure > img {
 }
 
 footer {
+  display: grid;
   grid-area: footer;
+  grid-template-columns:  repeat(5, 1fr);
+  grid-template-areas: 
+  ". customer sales about .";
 }
 
 li {
