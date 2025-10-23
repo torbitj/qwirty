@@ -286,3 +286,7 @@ a:visited {
 .price-tag a:hover {
   background-color: #23509a;
 }
+
+.footer-links:hover {
+  background-color: var(--hover-color);
+}
