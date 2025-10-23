@@ -24,8 +24,7 @@ header,
 footer,
 aside a,
 h2,
-article,
-.price-tag {
+article {
   background-color: midnightblue;
 }
 
@@ -67,6 +66,7 @@ aside {
 }
 
 figure {
+  color: black;
   min-height: 0;
 }
 
@@ -188,6 +188,7 @@ a {
 }
 
 .price-tag {
+  background-color: #23509a;
   padding: 0.25em;
   display: grid;
   grid-template-columns: 1fr 2fr max-content;
@@ -207,7 +208,7 @@ a {
 
 .price-tag a {
   padding: 0.1em;
-  background-color: #23509a;
+  background-color: midnightblue;
   border-radius: 25%;
 }
 
@@ -233,5 +234,5 @@ a:visited {
 }
 
 .price-tag a:hover {
-  background-color: #2a60b7;
+  background-color: #23509a;
 }
