@@ -171,6 +171,11 @@ a {
   grid-auto-rows: 14rem;
 }
 
+.cart-add {
+  height: 3em;
+  width: 3em;
+}
+
 a:visited {
   color: white;
 }
