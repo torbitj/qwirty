@@ -298,6 +298,14 @@ a:visited {
 
 /* Media Queries */
 @media screen and (width <= 768px) {
+  aside {
+    font-size: 0.8em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+  
   .header {
     font-size: 0.8em;
   }
