@@ -412,17 +412,6 @@ a:visited {
   .footer {
     row-gap: 0.7em;
   }
-}
-
-@media screen and (width <= 480px) {
-  .menu-item {
-    display: none;
-  }
-
-  .ham-button {
-    height: 2em;
-    width: 2em;
-  }
 
   .brand-search {
     width: 95%;
@@ -437,5 +426,16 @@ a:visited {
 
   .ad {
     box-shadow: 3px 3px 3px midnightblue;
+  }
+}
+
+@media screen and (width <= 480px) {
+  .menu-item {
+    display: none;
+  }
+
+  .ham-button {
+    height: 2em;
+    width: 2em;
   }
 }
