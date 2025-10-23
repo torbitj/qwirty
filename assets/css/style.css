@@ -298,6 +298,21 @@ a:visited {
 }
 
 /* Media Queries */
+@media screen and (width <= 1024px) {
+  .header {
+    font-size: 1em;
+  }
+
+  .cart {
+    height: 1.5em;
+    width: 1.5em;
+  }
+
+  .login {
+    align-items: center;
+  }
+}
+
 @media screen and (width <= 768px) {
   aside {
     font-size: 0.8em;
