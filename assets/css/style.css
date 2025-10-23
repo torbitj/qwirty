@@ -71,7 +71,8 @@ footer {
   display: grid;
   grid-area: footer;
   justify-content: start;
-  grid-template-columns:  repeat(5, 1fr);
+  grid-template-columns:  1fr max-content max-content max-content 1fr;
+  column-gap: 5em;
   grid-template-areas: 
   ". customer sales about .";
 }
@@ -93,6 +94,8 @@ h2 {
 
 h3 {
   grid-area: h3;
+  align-self: center;
+  font-size: 1.5em;
 }
 
 form {
@@ -239,7 +242,6 @@ a {
 
 .footer {
   display: grid;
-  text-align: center;
   align-items: center;
   grid-template-rows: 1fr 2fr 6fr;
   grid-template-areas: 
@@ -250,6 +252,7 @@ a {
 
 .footer-links {
   grid-area: footer-links;
+  align-self: start;
 }
 
 a:visited {
