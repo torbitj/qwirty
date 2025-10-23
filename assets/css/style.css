@@ -393,3 +393,14 @@ a:visited {
     row-gap: 0.7em;
   }
 }
+
+@media screen and (width <= 480px) {
+  .menu-item {
+    display: none;
+  }
+
+  .ham-button {
+    height: 2em;
+    width: 2em;
+  }
+}
