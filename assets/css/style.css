@@ -338,4 +338,8 @@ a:visited {
   .header {
     font-size: 1em;
   }
+
+  .login li {
+    display: none;
+  }
 }
