@@ -388,4 +388,8 @@ a:visited {
   .product-grid {
     grid-template-columns: 1fr;
   }
+
+  .footer {
+    row-gap: 0.7em;
+  }
 }
