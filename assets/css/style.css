@@ -305,8 +305,12 @@ a:visited {
     "main"
     "footer";
   }
-  
-  main {
 
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "search"
+    "aside"
+    "products";
   }
 }
