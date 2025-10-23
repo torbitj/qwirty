@@ -24,7 +24,8 @@ header,
 footer,
 aside a,
 h2,
-article {
+article,
+.price-tag {
   background-color: midnightblue;
 }
 
@@ -188,12 +189,18 @@ a {
 
 .price-tag {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr max-content;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.price {
+  font-weight: bold;
 }
 
 .cart-add {
-  height: 2em;
-  width: 2em;
+  height: 1.5em;
+  width: 1.5em;
 }
 
 a:visited {
