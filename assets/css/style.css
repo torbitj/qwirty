@@ -305,6 +305,14 @@ a:visited {
   h3 {
     font-size: 1.25em;
   }
+
+  footer {
+    justify-content: center;
+    grid-template-columns: max-content max-content max-content;
+    column-gap: 2em;
+    grid-template-areas: 
+    "customer sales about";
+  }
   
   .header {
     font-size: 0.8em;
@@ -359,10 +367,6 @@ a:visited {
     text-align: center;
   }
 
-  .product-grid {
-    grid-template-columns: 1fr;
-  }
-
   footer {
     height: auto;
     grid-template-columns: 1fr;
@@ -374,5 +378,14 @@ a:visited {
     "customer"
     "sales"
     "about";
+  }
+
+  h3 {
+    width: max-content;
+    justify-self: center;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
   }
 }
