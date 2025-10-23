@@ -96,6 +96,7 @@ h3 {
   grid-area: h3;
   align-self: center;
   font-size: 1.5em;
+  border-bottom: thin solid white;
 }
 
 form {
@@ -250,11 +251,15 @@ a {
   "footer-links";
 }
 
-.footer-links {
+.footer-links-list {
   grid-area: footer-links;
   display: grid;
   align-self: start;
-  row-gap: 0.5em;
+  row-gap: 0.6em;
+}
+
+.footer-links {
+  padding: 0.25em 0.5em;
 }
 
 a:visited {
