@@ -429,6 +429,8 @@ a:visited {
   }
 
   .brand-search {
+    width: 95%;
+    justify-self: center;
     grid-template-columns: 1fr;
     row-gap: 0.5em;
     grid-template-areas: 
