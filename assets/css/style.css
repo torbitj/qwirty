@@ -163,11 +163,12 @@ a {
 .brand-search {
   grid-area: search;
   display: grid;
-  grid-template-columns: 1fr 4fr 0.1fr 1.5fr;
+  column-gap: 1em;
+  grid-template-columns: 1fr 4fr 1.5fr;
   text-align: center;
   align-items: center;
   grid-template-areas: 
-  "brand search-field . ad";
+  "brand search-field ad";
 }
 
 .mag-glass {
