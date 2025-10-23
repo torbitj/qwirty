@@ -231,3 +231,7 @@ a:visited {
 .side-menu-item:hover {
   background-color: var(--hover-color);
 }
+
+.price-tag a:hover {
+  background-color: #2a60b7;
+}
