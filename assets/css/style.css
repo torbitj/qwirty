@@ -176,6 +176,12 @@ a {
   grid-auto-rows: 20em;
 }
 
+.product-item {
+  padding: 0.2em;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
 .price-tag {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
