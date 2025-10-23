@@ -219,6 +219,18 @@ a {
   border-radius: 25%;
 }
 
+.customer {
+  grid-area: customer;
+}
+
+.sales {
+  grid-area: sales;
+}
+
+.about {
+  grid-area: about;
+}
+
 a:visited {
   color: white;
 }
