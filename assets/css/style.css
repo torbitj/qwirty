@@ -252,7 +252,9 @@ a {
 
 .footer-links {
   grid-area: footer-links;
+  display: grid;
   align-self: start;
+  row-gap: 0.5em;
 }
 
 a:visited {
