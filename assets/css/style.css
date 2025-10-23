@@ -308,7 +308,7 @@ a:visited {
 
   main {
     grid-template-columns: 1fr;
-    row-gap: 1em;
+    row-gap: 0.5em;
     grid-template-areas: 
     "search"
     "aside"
@@ -316,6 +316,7 @@ a:visited {
   }
 
   aside {
+    height: auto;
     text-align: center;
   }
 
@@ -355,5 +356,9 @@ a:visited {
 
   .ham-button {
     display: initial;
+  }
+
+  .ad {
+    font-size: 0.8em;
   }
 }
