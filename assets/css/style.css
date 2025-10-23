@@ -32,19 +32,6 @@ header {
   grid-area: header;
 }
 
-nav {
-  display: grid;
-  grid-template-columns: 1fr 3fr 2fr 2fr 1fr;
-  grid-template-areas: 
-  ". menu . login .";
-  align-items: center;
-  font-size: 1.3em;
-}
-
-nav ul {
-  display: grid;
-}
-
 main {
   grid-area: main;
   display: grid;
@@ -117,6 +104,19 @@ form a {
 a {
   color: white;
   text-decoration: none;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 2fr 1fr;
+  grid-template-areas: 
+  ". menu . login .";
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.header ul {
+  display: grid;
 }
 
 .menu {
@@ -222,18 +222,26 @@ a {
 }
 
 .customer {
-  display: grid;
   grid-area: customer;
 }
 
 .sales {
-  display: grid;
   grid-area: sales;
 }
 
 .about {
-  display: grid;
   grid-area: about;
+}
+
+.footer {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-template-rows: 1fr 1fr 5fr;
+  grid-template-areas: 
+  "."
+  "h3"
+  "footer-links";
 }
 
 a:visited {
