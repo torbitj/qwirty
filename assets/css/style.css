@@ -317,4 +317,8 @@ a:visited {
   aside {
     text-align: center;
   }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
 }
