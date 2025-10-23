@@ -298,7 +298,11 @@ a:visited {
 }
 
 /* Media Queries */
-@media screen and (width <= 1024px) {
+@media screen and (width < 1024px) {
+  aside {
+    font-size: 0.9em;
+  }
+  
   .header {
     font-size: 1em;
   }
@@ -310,6 +314,10 @@ a:visited {
 
   .login {
     align-items: center;
+  }
+
+  .ad {
+    font-size: 0.9em;
   }
 }
 
