@@ -308,6 +308,7 @@ a:visited {
 
   main {
     grid-template-columns: 1fr;
+    row-gap: 1em;
     grid-template-areas: 
     "search"
     "aside"
@@ -337,9 +338,22 @@ a:visited {
 
   .header {
     font-size: 1em;
+    grid-template-columns: 4fr 2fr 0.1fr;
+    grid-template-areas: 
+    "menu bars";
   }
 
   .login li {
     display: none;
+  }
+
+  .bars {
+    display: grid;
+    grid-area: bars;
+    justify-content: end;
+  }
+
+  .ham-button {
+    display: initial;
   }
 }
