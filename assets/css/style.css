@@ -334,4 +334,8 @@ a:visited {
     "sales"
     "about";
   }
+
+  .header {
+    font-size: 1em;
+  }
 }
