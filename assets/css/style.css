@@ -1,6 +1,7 @@
 /* Root */
 :root {
   --hover-color: #4040d4;
+  --border-radius: 15px;
 }
 
 /* Universal Styling */
@@ -187,12 +188,13 @@ a {
   background-color: #23509a;
   font-family: 'Siracha', sans-serif;
   font-size: 1.1em;
+  border-radius: var(--border-radius);
 }
 
 .side-menu-item {
-  padding: 0.3em;
+  padding: 0.5em;
   margin-bottom: 0.25em;
-  border-radius: 15px;
+  border-radius: var(--border-radius);
 }
 
 .products {
