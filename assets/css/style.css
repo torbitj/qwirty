@@ -1,6 +1,7 @@
 /* Root */
 :root {
   --hover-color: #4040d4;
+  --border-radius: 15px;
 }
 
 /* Universal Styling */
@@ -62,6 +63,7 @@ figure {
   padding: 1.5em;
   border: solid midnightblue;
   border-bottom: none;
+  border-top: none;
 }
 
 figure > img {
@@ -93,6 +95,7 @@ h1 {
 
 h2 {
   padding: 0.5em;
+  border-radius: 15px 15px 0 0;
 }
 
 h3 {
@@ -114,7 +117,7 @@ form a {
 
 a {
   color: white;
-  text-decoration: none;
+  text-decoration-color: transparent;
 }
 
 /* Classes */
@@ -185,11 +188,13 @@ a {
   background-color: #23509a;
   font-family: 'Siracha', sans-serif;
   font-size: 1.1em;
+  border-radius: var(--border-radius);
 }
 
 .side-menu-item {
-  padding: 0.3em;
+  padding: 0.5em;
   margin-bottom: 0.25em;
+  border-radius: var(--border-radius);
 }
 
 .products {
@@ -216,6 +221,7 @@ a {
   grid-template-columns: 1fr 2fr max-content;
   align-items: center;
   font-size: 1.5em;
+  border-radius: 0 0 15px 15px;
 }
 
 .price {
@@ -270,6 +276,11 @@ a {
 /* Pseudo */
 a:visited {
   color: white;
+}
+
+a:hover {
+  text-decoration-color: white;
+  transition: text-decoration-color 0.5s ease;
 }
 
 .menu-item:hover {
